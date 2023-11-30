@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+<title>JEZA JERI WEB PAGE</title>
+<style>
+    .login_button {
+        background-color: brown;
+        color: white;
+        border: none;
+        width: 60px;
+        height: 26px;
+        font-weight: bold;
+        margin-right: 8px;
+        border-radius: 30px;
+        padding-left: 2px;
+        padding-top: 2px
+        padding-bottom: 3px;
+        padding-right: 2px;
+        
+        
+        
+    }
+
+    .login_button:hover {
+        background-color: powderblue;
+        color:brown
+    }
+
+    .login_button:active {
+        background-color: aqua;
+        color: black;
+    }
+
+   
+    .logout_button {
+        background-color:white;
+        color: rgb(255, 0, 98);
+        border: 1px solid;
+        border-color: blue;
+        border-width: 1px;
+        width: 60px;
+        height: 26px;
+        font-weight: bold;
+        margin-left: 8px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 1px black;
+        transition:box-shadow 0.15s;
+        
+    }
+
+    .logout_button:hover {
+        box-shadow: 2px 2px 2px black;
+        color: rgb(18, 214, 214);
+    }
+
+    .logout_button:active {
+        box-shadow:2px 2px 2px rgb(245, 15, 15) ;
+        color: aquamarine;
+    }
+
+    .nav_bar  {
+        display: flex;
+        align-content: center;
+        margin: 10px space-between ;
+    }
+</style>
+</head>
+<body>
+<nav class="nav_bar">
+    <a href="#HOME">HOME</a>
+    <a href="#ABOUT US">ABOUT US</a>
+    <a href="#PROJECTS">PROJECTS</a>
+    <a href="#PATNERS">PATNERS</a>
+    <a href="#CONTACT">CONTACT</a>
+</nav>
+
+<button class="login_button">
+    Login
+</button>
+<button class="logout_button">
+    Logout
+</button>
+</body>
+</html>
